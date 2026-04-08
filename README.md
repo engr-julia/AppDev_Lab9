@@ -41,7 +41,7 @@ CREATE TABLE characters (
     descriptions TEXT NOT NULL,
     image VARCHAR(255)
 );
-2. Connect to the Server
+### 2. Connect to the Server
 Edit db.php with your database credentials:
 
 Host: sql100.infinityfree.com
@@ -50,7 +50,7 @@ User: if0_41604144
 
 Pass: *********
 
-3. Folder Permissions
+### 3. Folder Permissions
 Ensure the uploads/ folder is created and has write permissions (755 or 777) so that the server can save uploaded images.
 
 🧪 Technical Overview
